@@ -28,9 +28,12 @@ const updatedResolvers = enableMonitoring(oldResolvers, 'yourAPIAcessID')
 
 **Start your GraphQL server with the updated resolvers.**
 ```javascript
-const server = new ApolloServer({ typeDefs, updatedResolvers })
+const server = new ApolloServer ({ typeDefs, updatedResolvers })
 server.listen( ).then( { url } ) ⇒ { console.log(`Server is listening at { url }` )}) 
 ```
 
 **Login to inquery.io to view your GraphQL query analytics!**
 
+
+![Image of inquery-monitor]
+`

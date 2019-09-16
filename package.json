@@ -1,6 +1,6 @@
 {
   "name": "inquery-monitor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "src/main.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "dev": "webpack --mode development & goblin monitor",
     "build": "webpack --mode production"
   },
-  "keywords": [],
+  "keywords": ["GraphQL","resolvers","analytics","monitor","inquery","apollo","graphql-express","server"],
   "author": "Andrew Tang, Justin Fung, Billy Lee, Sorouuush",
   "license": "ISC",
   "dependencies": {
